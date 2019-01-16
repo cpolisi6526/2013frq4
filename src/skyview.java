@@ -25,8 +25,8 @@ public class skyview {
                     index++;
                 }
             }
-            if (x % 2 == 1) {
-                for (int y = numCols-1; y!=0; y--) {
+            else {
+                for (int y = numCols-1; y>=0; y--) {
                     view[x][y] = scanned[index];
                     index++;
                 }
